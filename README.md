@@ -1,1 +1,5 @@
-# ShangtaoLi.github.io
+# Binghong Personal Website
+
+```Bash
+python3 -m http.server 8000
+```

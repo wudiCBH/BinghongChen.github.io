@@ -9,7 +9,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="images/binghong.jpg" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <style>
+      .abstract-box {
+        display: none;
+        margin-top: 8px;
+        padding: 10px 14px;
+        background: #f0f4ff;
+        border-left: 3px solid #0d47a1;
+        border-radius: 4px;
+        font-size: 13px;
+        line-height: 1.6;
+        text-align: left;
+      }
+      a.abstract-toggle {
+        cursor: pointer;
+        color: #1772d0;
+      }
+      a.abstract-toggle:hover {
+        color: #f09228;
+      }
+    </style>
   </head>
 
   <body>
@@ -23,19 +44,20 @@
                   Binghong Chen
                 </p>
                 <p>
-		<p>I am a first year master student in Mechanical Engineering at <a href="https://www.cmu.edu/">Carnegie Mellon University</a>working on <a href="https://safeai-lab.github.io/">SafeAI Lab</a>, advised by <a href="ttps://www.meche.engineering.cmu.edu/directory/bios/zhao-ding.html">Prof.Ding Zhao</a>. 
+		<p>I am a first year master student in Mechanical Engineering at <a href="https://www.cmu.edu/">Carnegie Mellon University</a> working on <a href="https://safeai-lab.github.io/">SafeAI Lab</a>, advised by <a href="ttps://www.meche.engineering.cmu.edu/directory/bios/zhao-ding.html">Prof.Ding Zhao</a>. 
     
     <p>I received my B.S. degree in Agricultural Engineering from Zhejiang University in 2025, advised by <a href="https://www.ce.cit.tum.de/en/air/people/alumni/httpswwwintumdei06peoplemingchuan-zhou-meng-1/">prof.Mingchuan Zhou</a>. I also worked in <a href="https://arclab.hku.hk/">Arclab</a>, <a href="https://www.hku.hk/">the University of Hong Kong</a>, supervised by <a href="https://mech.hku.hk/academic-staff/lu-p/">prof.Peng Lu</a>. In addition, I spent several months for internship in <a href="http://www.dessight.cn/">Dessight Biomedical Company</a>,.
                 </p>
-                <p style="text-align:center">
-                  <a href="binghong@andrew.cmu.edu">Email</a> &nbsp;/&nbsp;
-                  <a href="data/Binghong_Research_Resume_2026_5_.pdf">CV</a> &nbsp;/&nbsp;
-                  <!-- <a href="data/JonBarron-bio.txt">Bio</a> &nbsp;/&nbsp; -->
-                  <a href="https://scholar.google.com/citations?user=NbkhDNcAAAAJ&hl=en">Scholar</a> &nbsp;/&nbsp;
-                  <a href="https://x.com/chen_bingh85992">Twitter</a> &nbsp;/&nbsp;
-                  <a href="https://xhslink.com/m/9XUUr1HSf0z">LittleRed</a> &nbsp;/&nbsp;
-                  <a href="https://github.com/wudiCBH">Github</a>
-                </p>
+                <div style="text-align:center;">
+                  <a style="margin: 0 8px;" href="mailto:binghong@andrew.cmu.edu"><i class="fas fa-envelope" style="font-size:28px; color:#0d47a1;"></i></a>
+                  <a style="margin: 0 8px;" href="data/Binghong_Research_Resume_2026_5_.pdf"><i class="ai ai-cv" style="font-size:28px; color:#0d47a1;"></i></a>
+                  <a style="margin: 0 8px;" href="https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME"><i class="fab fa-linkedin" style="font-size:28px; color:#0d47a1;"></i></a>
+                  <!-- <a href="data/JonBarron-bio.txt">Bio</a> -->
+                  <a style="margin: 0 8px;" href="https://scholar.google.com/citations?user=NbkhDNcAAAAJ&hl=en"><i class="ai ai-google-scholar" style="font-size:28px; color:#0d47a1;"></i></a>
+                  <a style="margin: 0 8px;" href="https://x.com/chen_bingh85992"><i class="fab fa-x-twitter" style="font-size:28px; color:#0d47a1;"></i></a>
+                  <a style="margin: 0 8px;" href="https://xhslink.com/m/9XUUr1HSf0z"><img src="images/little_red_icon.jpeg" style="width:28px; height:28px; object-fit:cover; border-radius:4px; vertical-align:middle; position:relative; top:-7px;"></a>
+                  <a style="margin: 0 8px;" href="https://github.com/wudiCBH"><i class="fab fa-github" style="font-size:28px; color:#0d47a1;"></i></a>
+                </div>
               </td>
               <td style="padding:2.5%;width:37%;max-width:37%">
                 <a href="images/binghongchen.jpg"><img style="width:80%;max-width:80%;object-fit: cover; border-radius: 8px;" alt="profile photo" src="images/binghongchen.jpg" class="hoverZoomLink"></a>
@@ -71,10 +93,14 @@
     <br>
     <em>ArXiv Preprint 2026, Under Review by International Conference on Intelligent Robots and System (IROS)</em>
     <br>
+    <a class="abstract-toggle" onclick="toggleAbstract('abs1')">abstract</a> |
     <a href="https://humanoid-touch-dream.github.io/">webpage</a> |
     <!-- <a href="https://arxiv.org/pdf/2603.22703">pdf</a> | -->
-    <a href="https://arxiv.org/pdf/2604.13015v2">arXiv</a> 
+    <a href="https://arxiv.org/pdf/2604.13015v2">arXiv</a>
     <!-- <a href="...">code</a> -->
+    <div id="abs1" class="abstract-box">
+      We present Touch Dreaming, a framework for learning versatile humanoid manipulation by incorporating tactile sensing into a world-model-based reinforcement learning pipeline. Our approach enables humanoid robots to perform dexterous tasks requiring precise contact sensing, achieving robust generalization across diverse manipulation scenarios.
+    </div>
     <p></p>
   </td>
   </tr>
@@ -95,6 +121,10 @@
     <!-- <a href="https://arxiv.org/pdf/2603.22703">pdf</a> | -->
     <!-- <a href="https://arxiv.org/pdf/2604.13015v2">arXiv</a>  -->
     <!-- <a href="...">code</a> -->
+    <a class="abstract-toggle" onclick="toggleAbstract('abs2')">abstract</a>
+    <div id="abs2" class="abstract-box">
+      We introduce DWRK, a dexterous wristed robotic kit designed for autonomous robot-assisted minimally invasive surgery. DWRK provides a modular, low-cost platform with high dexterity for performing surgical manipulation tasks, enabling data-driven learning approaches toward full surgical autonomy.
+    </div>
     <p></p>
   </td>
 </tr>
@@ -111,10 +141,15 @@
     Fanghao Wang*, <strong>Binghong Chen*</strong>, <a href="https://scholar.google.com/citations?hl=zh-CN&user=oRMlWi4AAAAJ&view_op=list_works&sortby=pubdate">Youchao Zhang</a>, Xiangyu Guo, Yining Lyu, Chuanjie Liu, <a href="https://www.ce.cit.tum.de/en/air/people/prof-dr-ing-habil-alois-knoll/">Alois Knoll</a>, Di Cui, Huanyu Jiang, <a href="https://person.zju.edu.cn/en/0089059">Yibin Ying</a>, <a href="https://www.ce.cit.tum.de/en/air/people/alumni/httpswwwintumdei06peoplemingchuan-zhou-meng-1/">Mingchuan Zhou</a>
     <br>
     <em>IEEE Transactions on Robotics (TRO), 2026</em>
+    <br>
     <!-- <a href="https://humanoid-touch-dream.github.io/">webpage</a> | -->
     <!-- <a href="https://arxiv.org/pdf/2603.22703">pdf</a> | -->
     <!-- <a href="https://arxiv.org/pdf/2604.13015v2">arXiv</a>  -->
+    <a class="abstract-toggle" onclick="toggleAbstract('abs3')">abstract</a> |
     <a href="https://github.com/fanghaow/STTRL-DVO">code</a>
+    <div id="abs3" class="abstract-box">
+      We propose STTRL-DVO, a transformer-based reinforcement learning method for robust dynamic target tracking in cluttered environments using direct visual odometry. Our spatiotemporal transformer captures long-range dependencies across frames, enabling reliable tracking of fast-moving targets under occlusion and visual clutter.
+    </div>
     <p></p>
   </td>
 </tr>
@@ -203,5 +238,11 @@
         </td>
       </tr>
     </table>
+  <script>
+    function toggleAbstract(id) {
+      var el = document.getElementById(id);
+      el.style.display = el.style.display === 'block' ? 'none' : 'block';
+    }
+  </script>
   </body>
 </html>
